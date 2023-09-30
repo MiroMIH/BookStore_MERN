@@ -14,7 +14,6 @@ Welcome to **BookStore_MERN**, an open-source project meticulously designed to p
 
 - **Data Management:** Delve into MongoDB, a leading NoSQL database. Master data modeling, schema design, and complex query operations, enabling you to handle diverse data types effectively.
 
-- **Interactive Community:** Engage with a lively community of book enthusiasts. Learn how to implement real-time features, notifications, and user interactions to create a dynamic social platform.
 
 ## Getting Started
 
