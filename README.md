@@ -23,16 +23,4 @@ Welcome to **BookStore_MERN**, an open-source project meticulously designed to p
 
 - **MongoDB:** Install MongoDB locally or use a cloud-based service like MongoDB Atlas. For installation instructions, visit [mongodb.com](https://www.mongodb.com/).
 
-### Installation
 
-```sh
-git clone https://github.com/your-username/BookStore_MERN.git
-cd BookStore_MERN
-
-# Frontend installation
-cd client
-npm install
-
-# Backend installation
-cd ../server
-npm install
