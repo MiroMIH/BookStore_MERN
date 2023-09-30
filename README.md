@@ -23,4 +23,23 @@ Welcome to **BookStore_MERN**, an open-source project meticulously designed to p
 
 - **MongoDB:** Install MongoDB locally or use a cloud-based service like MongoDB Atlas. For installation instructions, visit [mongodb.com](https://www.mongodb.com/).
 
+### Book Schema Definition
+
+In your MERN stack project, you've defined a `bookSchema` using Mongoose, a MongoDB object modeling tool. This schema outlines the structure of your `Book` documents in MongoDB. Here's how it looks:
+
+```javascript
+const mongoose = require('mongoose');
+
+const bookSchema = new mongoose.Schema({
+  title: String,           // Title of the book
+  ISBN: String,            // International Standard Book Number
+  publicationYear: Number, // Year of publication
+  genre: String,           // Genre of the book
+  publisher: String,       // Publisher of the book
+  language: String,        // Language of the book
+  synopsis: String,        // Summary or description of the book
+  coverImage: String,      // URL or file path to the book's cover image
+});
+
+const Book = mongoose.model('Book', bookSchema);
 
